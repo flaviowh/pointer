@@ -6,7 +6,7 @@ import keyboard
 WINDOW_UI = r".\window.ui"
 
 
-class main_window(QMainWindow):
+class Pointer(QMainWindow):
 
     def __init__(self):
         super(QMainWindow, self).__init__()
@@ -92,6 +92,6 @@ class main_window(QMainWindow):
 if __name__ == "__main__":
     import sys
     app = QtWidgets.QApplication(sys.argv)
-    window = main_window()
+    window = Pointer()
     window.show()
     app.exec_()
