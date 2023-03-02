@@ -26,7 +26,7 @@ class main_window(QMainWindow):
         self.selected_rgb = None
 
         self.trigger_shutdown_btn.clicked.connect(self.toggle_watcher)
-        self.setFixedSize(339, 107)
+        self.setFixedSize(358,88)
         self.update_coordinates()
         self.update_rgb()
 
